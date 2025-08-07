@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/status-Concluído-brightgreen" alt="Status do Projeto"/>
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status do Projeto"/>
   <img src="https://img.shields.io/badge/Java-21-blue?logo=openjdk" alt="Java 21"/>
   <img src="https://img.shields.io/badge/Spring_Boot-3-green?logo=spring" alt="Spring Boot 3"/>
   <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React"/>
@@ -59,7 +59,7 @@ Este é um **projeto autoral full-stack**, nascido da necessidade real de otimiz
 
 <div align="center">
   <p>Desenvolvido por Rafael Maia</p>
-  <a href="https://www.linkedin.com/in/seu-usuario-linkedin/" target="_blank">
+  <a href="https://www.linkedin.com/in/rafaelmaiia/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
