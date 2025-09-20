@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Logo Mar de Beleza" width="150"/>
   <h1>Mar de Beleza - Sistema de Agendamento</h1>
   <p><strong>Um projeto Full-Stack para gestão de salões de beleza.</strong></p>
 </div>
