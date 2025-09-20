@@ -1,10 +1,11 @@
 <div align="center">
-  <h1>Mar de Beleza - Sistema de Agendamento</h1>
+  <img src="assets/logo.png" alt="Logo Beauty Manager App" width="150"/>
+  <h1>Beauty Manager - Sistema de Gestão para Salão de Beleza</h1>
   <p><strong>Um projeto Full-Stack para gestão de salões de beleza.</strong></p>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status do Projeto"/>
+  <img src="https://img.shields.io/badge/status-concluído-green" alt="Status do Projeto"/>
   <img src="https://img.shields.io/badge/Java-21-blue?logo=openjdk" alt="Java 21"/>
   <img src="https://img.shields.io/badge/Spring_Boot-3-green?logo=spring" alt="Spring Boot 3"/>
   <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React"/>
