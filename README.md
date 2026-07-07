@@ -1,110 +1,161 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Logo Beauty Salon Demo" width="150"/>
-  <h1>Beauty Salon Demo – Otimizando a Gestão de Salões de Beleza</h1>
-  <p><strong>Demo pública do projeto autoral “Mar de Beleza”</strong></p>
+  <h1>Mar de Beleza — Case técnico e de produto</h1>
+
+  <p>
+    Sistema full-stack de gestão para salão de beleza, desenvolvido para centralizar agenda,
+    clientes, profissionais, serviços e financeiro em uma operação real.
+  </p>
+
+  <p>
+    <strong>Case desenvolvido por Rafael Maia</strong><br>
+    Consultor Tecnológico & Desenvolvedor Full-Stack
+  </p>
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/status-online-green" alt="Status do Projeto"/>
-  <img src="https://img.shields.io/badge/Java-21-blue?logo=openjdk" alt="Java 21"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-3-green?logo=spring" alt="Spring Boot 3"/>
-  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript" alt="TypeScript"/>
-</div>
+---
 
-<br>
+## Sobre o case
 
-## 📝 Sobre o Projeto
+O **Mar de Beleza** é um sistema de gestão para salão de beleza que nasceu de uma necessidade operacional real.
 
-Esta é a **demonstração pública** do meu sistema autoral **Mar de Beleza**, desenvolvido para digitalizar e otimizar a gestão de salões de beleza.  
-Em um mercado competitivo, a eficiência é chave. O Mar de Beleza surge como uma solução robusta para transformar a administração de salões, permitindo agendamentos rápidos, gestão de clientes, profissionais e serviços, além de um painel financeiro para acompanhar o apurado total e das funcionárias.
+Antes do sistema, parte da rotina dependia de agenda física, conversas no WhatsApp, controles manuais e conferências espalhadas. Agendamentos, clientes, profissionais, serviços e pagamentos precisavam ser organizados de forma mais clara, centralizada e confiável.
 
-> 🔗 **[Clique aqui para acessar a Demo Pública](https://beauty-manager-demo.vercel.app/)**
+A solução foi desenvolvida como uma aplicação full-stack mobile-first, com backend em **Java/Spring Boot** e frontend em **React/TypeScript**, reunindo os principais fluxos da operação em um único sistema.
+
+O repositório principal do projeto é privado por envolver uma aplicação real em produção. Este repositório serve como apresentação pública do case, com contexto, funcionalidades, arquitetura e link para a landing page.
+
+🔗 **Case público:** [Mar de Beleza — Case técnico e de produto](https://mar-de-beleza-case.vercel.app/)
 
 ---
 
-## 🎥 Demonstração em Vídeo
+## Minha atuação
 
-<a href="https://youtube.com/shorts/UqqQMcTpQAY?feature=share" target="_blank">
-  <img src="assets/img_play.png" alt="Assista ao vídeo" width="200" height="200"/>
-</a>
+Atuei em todas as etapas do projeto, conectando entendimento da operação, decisões de produto e desenvolvimento full-stack.
 
-*(Clique na imagem para conhecer o Sistema em um Tour Rápido)*
+Minha atuação envolveu:
 
----
-
-## ✨ Funcionalidades Principais
-
-- **Agendamentos simplificados:**  
-  - Criação, edição e exclusão de agendamentos **para otimizar o tempo e reduzir erros**.
-  - Filtros avançados por profissional, cliente, data e status.
-  - Visualização da agenda do dia ou de outros dias.
-
-- **Confirmação de clientes por WhatsApp:**  
-  - Ícone de WhatsApp para contato e enviar confirmação em um clique, **melhorando a comunicação e a taxa de comparecimento**.
-- **Dashboard inteligente:**  
-  - Agenda do dia filtrável por profissional.
-  - Resumo dos próximos atendimentos.
-  - Card de próximo agendamento (Visão da funcionária)
-- **Painéis de Gestão:**
-  - **Clientes:** cadastro completo e busca rápida.
-  - **Profissionais:** gerenciamento de funcionárias e especialidades.
-  - **Serviços:** catálogo com duração e preço.
-  - **Usuários (Funcionárias):** controle de acessos.
-  - **Financeiro:** gestão do apurado total por período e por funcionária, facilitando o pagamento.
-- **PWA Mobile:**  
-  - Pode ser instalado no celular como um app nativo.
-- **Brevo API:**  
-  - Integração com API para envio de email de redefinição de senha.
+- diagnóstico da rotina manual do salão;
+- identificação dos principais gargalos operacionais;
+- definição do escopo inicial do produto;
+- modelagem das regras de negócio;
+- desenvolvimento do backend e frontend;
+- implantação da solução em produção;
+- evolução contínua com base no uso real e feedback das usuárias.
 
 ---
 
-## 📸 Apresentação Visual
+## Funcionalidades principais
 
-| Login e Dashboard (GIF) | Clientes e Profissionais (GIF) |
-| :---: | :---: |
-| <img src="https://github.com/rafaelmaiia/portfolio-mar-de-beleza/blob/main/assets/login_dashboard.gif" alt="Login e Dashboard" width="300"/> | <img src="https://github.com/rafaelmaiia/portfolio-mar-de-beleza/blob/main/assets/clientes_usuarios.gif" alt="Clientes e Profissionais" width="300"/> |
-| *Tela inicial de autenticação e tela para agenda do dia.* | *Tela de gestão de clientes e usuárias (funcionárias).* |
+- **Agenda do dia**
+  - visualização de atendimentos por data;
+  - acompanhamento de status;
+  - filtros por profissional, cliente, data e situação;
+  - ações rápidas para criar, editar, cancelar e concluir agendamentos.
 
-| Agendamentos & Financeiro (GIF) | Modais de Interação (GIF) |
-| :---: | :---: |
-| <img src="https://github.com/rafaelmaiia/portfolio-mar-de-beleza/blob/main/assets/agendamentos_financeiro.gif" alt="Agendamentos e Financeiro" width="300"/> | <img src="https://github.com/rafaelmaiia/portfolio-mar-de-beleza/blob/main/assets/modais_interacao.gif" alt="Modais de Interação" width="300"/> |
-| *Tela para gestão de agendamentos e painel financeiro.* | *Modais: agendamentos, status, pagamentos, clientes e serviços.* |
+- **Clientes**
+  - cadastro e consulta de clientes;
+  - organização de dados de contato;
+  - reutilização das informações nos fluxos de agendamento e pagamento.
+
+- **Profissionais e usuários**
+  - cadastro de profissionais;
+  - controle de usuários;
+  - separação entre perfis administrativos e operacionais.
+
+- **Serviços**
+  - catálogo de serviços;
+  - definição de duração e preço;
+  - integração com os fluxos de agendamento.
+
+- **Pagamentos e financeiro**
+  - registro de pagamentos;
+  - acompanhamento de valores por período;
+  - controle de comissões, aluguéis, valores do salão e entradas financeiras.
+
+- **PWA mobile-first**
+  - interface pensada para uso em celular;
+  - navegação simples para a rotina do salão;
+  - experiência próxima de aplicativo instalável.
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura do sistema
 
-![Arquitetura do Sistema](https://github.com/rafaelmaiia/portfolio-mar-de-beleza/blob/main/assets/arquitetura_salon_app.png)
+```mermaid
+flowchart LR
+  subgraph Frontend["Frontend / PWA"]
+    UI["React + TypeScript + Vite<br/>TailwindCSS<br/>Rotas protegidas<br/>Interface mobile-first"]
+  end
 
-O projeto foi concebido com uma arquitetura de aplicação moderna e desacoplada, separando o **Backend** (API RESTful em Java 21 + Spring Boot 3) e o **Frontend** (React 18 + TypeScript + Vite). Essa abordagem garante **escalabilidade, manutenibilidade** e **flexibilidade** para futuras expansões ou integrações. O uso de **PostgreSQL** como banco de dados relacional e a hospedagem em plataformas como **Railway e Vercel** reforçam a robustez e a agilidade no deployment da aplicação.
+  subgraph Backend["Backend / API REST"]
+    Auth["Autenticação<br/>JWT + Refresh Token"]
+    Controllers["Controllers /api/v1<br/>Agenda, clientes, serviços,<br/>usuários e financeiro"]
+    Domain["Serviços de domínio<br/>Agendamentos, pagamentos,<br/>contratos e caixa"]
+    Persistence["Persistência<br/>Spring Data JPA + Flyway"]
+  end
+
+  DB[("PostgreSQL")]
+
+  UI -->|"HTTP/JSON"| Controllers
+  Controllers --> Auth
+  Controllers --> Domain
+  Domain --> Persistence
+  Persistence --> DB
+```
+
+A arquitetura separa frontend, backend e banco de dados, mantendo as regras de negócio concentradas na API. Essa divisão facilita a evolução da interface, a manutenção dos fluxos operacionais e a implantação em ambientes separados.
+
+O **frontend** foi desenvolvido com React, TypeScript, Vite e TailwindCSS, consumindo a API REST e priorizando uma experiência mobile-first.
+
+O **backend** foi desenvolvido com Java 21, Spring Boot 3, Spring Security, JWT, Spring Data JPA, PostgreSQL e Flyway, concentrando autenticação, permissões, persistência e os principais fluxos da operação.
 
 ---
 
-## 🚀 Próximos Passos (Roadmap)
+## Stack técnica
 
-- [ ] Integração com relatórios financeiros avançados.
-- [ ] Integração com API WhatsApp para Notificações automáticas.
-- [ ] Versão mobile responsiva aprimorada (Google e iOS).
-
----
-
-## 💻 Tecnologias
-
-**Backend:** Java 21 · Spring Boot 3 · Spring Security (JWT) · Spring Data JPA  
-**Frontend:** React 18 · TypeScript 5 · Vite · Tailwind CSS  
+**Backend:** Java 21 · Spring Boot 3 · Spring Security · JWT · Spring Data JPA · Flyway  
+**Frontend:** React · TypeScript · Vite · TailwindCSS · PWA  
 **Banco de Dados:** PostgreSQL  
-**Infraestrutura:** Maven · Git/GitHub · Testes Unitários e de Integração (JUnit 5)  
-**Deploy:** Railway (backend) · Vercel (frontend)
+**Testes:** JUnit 5 · Mockito · H2  
+**Infraestrutura:** Docker · Railway · Vercel  
+**Práticas:** APIs REST · modelagem de domínio · separação de responsabilidades · refatoração
+
+---
+
+## Impacto
+
+A centralização dos fluxos reduziu a dependência de controles manuais e tornou a operação mais organizada, previsível e fácil de acompanhar.
+
+Entre os principais ganhos observados:
+
+- redução estimada de **35% a 40% no tempo operacional diário**;
+- menos retrabalho na organização da agenda;
+- menos erros de agendamento;
+- mais clareza sobre pagamentos e registros financeiros;
+- melhor acompanhamento da rotina por parte da equipe.
+
+---
+
+## Observação
+
+Este repositório não contém o código-fonte principal do sistema.
+
+O objetivo aqui é apresentar publicamente o contexto, a solução, a arquitetura e os resultados do projeto, preservando a aplicação real em produção.
+
+Para visualizar o case completo, acesse:
+
+🔗 **[Mar de Beleza — Case técnico e de produto](https://mar-de-beleza-case.vercel.app/)**
 
 ---
 
 <div align="center">
   <p>Desenvolvido por Rafael Maia</p>
+
   <a href="https://www.linkedin.com/in/rafaelmaiia/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    LinkedIn
   </a>
-  <a href="mailto:rafaelmaia.developer@gmail.com" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  ·
+  <a href="mailto:rafaelmaia.developer@gmail.com">
+    E-mail
   </a>
 </div>
